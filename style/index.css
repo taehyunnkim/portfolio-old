@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display+SC:700|Poiret+One&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Nanum+Myeongjo:700&display=swap');
+
+body {
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 55vw;
+    height: 80vh;
+}
+
+.lines {
+    height: 20vh;
+    border-left: 2px gray solid;
+    border-right: 2px gray solid;
+}
+
+.painting {
+    width: 100%;
+/*
+    background-image: url("../images/headshot.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+*/
+    box-shadow: 4px 4px 4px gray;
+}
+
+.description p {
+    margin: 0;
+    font-family: 'Nanum Myeongjo', serif;
+    font-size: 0.5em;
+}
+
+.navbar {
+    padding-left: 0;
+}
+
+.navbar a {
+    font-family: 'Nanum Myeongjo', serif !important;
+    font-size: 1em;
+    padding-left: 0 !important;
+    -webkit-transition: all 500ms ease-in;
+    -moz-transition: all 500ms ease-in;
+    -ms-transition: all 500ms ease-in;
+    -o-transition: all 500ms ease-in;
+    transition: all 500ms ease-in;
+}
+
+.navbar a:hover {
+    color: black !important;
+    opacity: 1;
+}
+
+.social img{
+    opacity: 0.5;
+    transition: all 0.5s ease-in-out;
+}
+
+.social img:hover {
+    opacity: 1;
+}
+
+.bgFooter {
+    width: 100vw;
+    position: fixed;
+    bottom: 0;
+    left: -6vw;
+    text-align: center;
+    font-family: 'Playfair Display SC', serif;
+    font-weight: 700;
+    pointer-events: none;
+}
+
+.bgFooter h1 {
+    font-size: 20vw;
+    opacity: 0.1;
+    transform: translateY(140px);
+}
