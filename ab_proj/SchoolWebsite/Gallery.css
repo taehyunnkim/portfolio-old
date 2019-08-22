@@ -1,0 +1,113 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+h3{
+	font: 24px Impact;
+	color: gray;
+}
+
+p{
+	font: 13px Times;
+	color: black;
+	margin-top: 10px;
+	
+}
+
+
+
+.bigHeader{
+	width: 500px;
+	margin-left: auto ;
+    margin-right: auto ;
+	border-bottom: dotted 1px gray;
+    margin-top: 50px;
+    margin-bottom: 2vh;
+    text-align: center;
+}
+
+.bigHeader h5{
+    
+    margin-bottom: 10px;
+    font-family: Lato;
+}
+
+.bigHeaderText{
+	text-align: center;
+	font: 100px Amatic SC;
+	color: black;
+}
+
+body{
+	width: 100%;
+	display: block;
+}
+
+.wrapper{
+	
+	width: 960px;
+	margin: 0px auto;
+	
+}
+
+
+#big_wrapper{
+	margin: 0px 0px;
+	/* Changed the overall setting for the entire website*/
+}
+
+#top_header{ 
+	padding: 10px;
+	text-align: center;
+	font: 38px Impact;
+	color: #1C1C1C;
+	/* Logo and Title*/
+}
+
+
+
+.gallery {
+  width: 124.2vh;
+  margin: 0 auto;
+  background: #fff;
+  box-shadow: 0 0.2vh 0.6vh rgba(0,0,0,1);
+}
+
+.gallery > div {
+  position: relative;
+  float: left;
+  padding: 0.7vh;
+}
+
+.gallery > div > img {
+  display: block;
+  width: 40vh;
+  height: 27vh;
+}
+
+.gallery > div:hover {
+  z-index: 1;
+}
+
+
+.border:before, .border:after {
+  display: table;
+  content: "";
+  line-height: 0;
+}
+
+.border:after {
+  clear: both;
+}
+
+p {
+    text-align: center;
+    font:1.5vh Lato;
+}
+
+
+
+

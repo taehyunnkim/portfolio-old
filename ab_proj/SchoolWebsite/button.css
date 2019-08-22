@@ -1,0 +1,795 @@
+
+/*Buttons*/
+
+.navigation {
+    width: 100%;
+    margin-top: 30vh;
+    text-align: center;
+}
+
+.button1{
+  z-index: 3;
+  border: 0.1vh solid white;
+  border-radius: 0.5vh;
+  background-color: transparent;
+  position: relative; 
+  font: 2.5vh Pathway Gothic One;
+  padding: 1.6vh;
+  width: 20vh;
+  transition: all 0.5s;
+  cursor: pointer;
+  animation: slide 01s forwards;
+  margin: 1vh;
+  
+}
+
+.button2 {
+  z-index: 3;
+  border: 0.1vh solid white;
+  border-radius: 0.5vh;
+  background-color: transparent;
+  position: relative; 
+  font: 2.5vh Pathway Gothic One;
+  padding: 1.6vh;
+  width: 20vh;
+  opacity: 0;
+  transition: all 0.5s;
+  cursor: pointer;
+  animation: slide 01s forwards 0.3s;
+  margin: 1vh;
+}
+
+.button3 {
+  z-index: 3;
+  border: 0.1vh solid white;
+  border-radius: 0.5vh;
+  background-color: transparent;
+  position: relative; 
+  font: 2.5vh Pathway Gothic One;
+  padding: 1.6vh;
+  width: 20vh;
+  opacity: 0;
+  transition: all 0.5s;
+  cursor: pointer;
+  animation: slide 01s forwards 0.6s;
+  margin: 1vh;
+}
+
+.button1 p, .button2 p, .button3 p, .button4 p, .button5 p, .button6 p{
+    text-decoration: none;
+    color: white;
+}
+
+.button1 span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button1 span:after {
+  content: '\00bb';
+  transition: 0.5s;
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -3vh;
+  color: white;
+}
+
+.button1:hover {
+    background-color: #fda2aa;
+}
+
+.button1:hover span {
+  padding-right: 3vh;
+}
+
+.button1:hover a{
+  transition: 0.5s;
+}
+
+
+.button1:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+.button2 span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button2 span:after {
+  content: '\00bb';
+  transition: 0.5s;
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -3vh;
+  color: white;
+}
+
+.button2:hover {
+    background-color: #fbfb77;
+}
+
+.button2:hover span {
+  padding-right: 3vh;
+}
+
+.button2:hover a{
+  transition: 0.5s;
+}
+
+
+.button2:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+.button2 span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button2 span:after {
+  content: '\00bb';
+  transition: 0.5s;
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  color: white;
+}
+
+.button3 span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button3 span:after {
+  content: '\00bb';
+  transition: 0.5s;
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -3vh;
+  color: white;
+}
+
+.button3:hover {
+    background-color: #9bd2fd;
+}
+
+.button3:hover span {
+  padding-right: 3vh;
+}
+
+.button3:hover a{
+  transition: 0.5s;
+}
+
+
+.button3:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+.button3 span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button3 span:after {
+  content: '\00bb';
+  transition: 0.5s;
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  color: white;
+}
+
+.navigation2 {
+    width: 100%;
+    margin-top: 31vh;
+    text-align: center;
+}
+
+.button4 span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button4 span:after {
+  content: '\00bb';
+  transition: 0.5s;
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -3vh;
+  color: white;
+}
+
+.button4:hover {
+    background-color: #8af6a2;
+}
+
+.button4:hover span {
+  padding-right: 3vh;
+}
+
+.button4:hover a{
+  transition: 0.5s;
+}
+
+
+.button4:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+.button4 {
+  z-index: 3;
+  border: 0.1vh solid white;
+  border-radius: 0.5vh;
+  background-color: transparent;
+  position: relative; 
+  font: 2.5vh Pathway Gothic One;
+  padding: 1.6vh;
+  width: 20vh;
+  opacity: 0;
+  transition: all 0.5s;
+  cursor: pointer;
+  animation: slide2 01s forwards 1.5s;
+  margin: 1vh;
+}
+
+.button5 span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button5 span:after {
+  content: '\00bb';
+  transition: 0.5s;
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -3vh;
+  color: white;
+}
+
+.button5:hover {
+    background-color: #fbd3a5;
+}
+
+.button5:hover span {
+  padding-right: 3vh;
+}
+
+.button5:hover a{
+  transition: 0.5s;
+}
+
+
+.button5:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+.button5 {
+  z-index: 3;
+  border: 0.1vh solid white;
+  border-radius: 0.5vh;
+  background-color: transparent;
+  position: relative; 
+  font: 2.5vh Pathway Gothic One;
+  padding: 1.6vh;
+  width: 20vh;
+  opacity: 0;
+  transition: all 0.5s;
+  cursor: pointer;
+  animation: slide2 01s forwards 0.9s;
+  margin: 1vh;
+}
+
+.button6 span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button6 span:after {
+  content: '\00bb';
+  transition: 0.5s;
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -3vh;
+  color: white;
+}
+
+.button6:hover {
+    background-color: #cc70a3;
+}
+
+.button6:hover span {
+  padding-right: 3vh;
+}
+
+.button6:hover a{
+  transition: 0.5s;
+}
+
+
+.button6:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+.button6 {
+  z-index: 3;
+  border: 0.1vh solid white;
+  border-radius: 0.5vh;
+  background-color: transparent;
+  position: relative; 
+  font: 2.5vh Pathway Gothic One;
+  padding: 1.6vh;
+  width: 20vh;
+  opacity: 0;
+  transition: all 0.5s;
+  cursor: pointer;
+  animation: slide2 01s forwards 1.2s;
+  margin: 1vh;
+}
+
+
+
+@keyframes slide{
+    0% {
+        opacity: 0;
+        animation-timing-function: ease-out;
+    }
+    100% {
+        transform: translate3d(0px, 15vh, 0px);
+        opacity: 1;
+    }
+}
+
+@keyframes slide2{
+    0% {
+        opacity: 0;
+        animation-timing-function: ease-out;
+    }
+    100% {
+        transform: translate3d(0px, -15vh, 0px);
+        opacity: 1;
+    }
+}
+
+@keyframes fade-in{
+    0% {
+        opacity: 0;
+        animation-timing-function: ease-in-out;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    
+    
+/*Buttons*/
+
+.navigation {
+    width: 100%;
+    margin-top: 30vh;
+    text-align: center;
+}
+
+.button1{
+  z-index: 3;
+  border: 0.01vh solid white;
+  border-radius: 0.5vh;
+  background-color: transparent;
+  position: relative; 
+  font: 2.5vh Pathway Gothic One;
+  padding: 1vh;
+  width: 15vh;
+  transition: all 0.5s;
+  cursor: pointer;
+  animation: slide 01s forwards;
+  margin: 1vh;
+  
+}
+
+.button2 {
+  z-index: 3;
+  border: 0.01vh solid white;
+  border-radius: 0.5vh;
+  background-color: transparent;
+  position: relative; 
+  font: 2.5vh Pathway Gothic One;
+  padding: 1vh;
+  width: 15vh;
+  opacity: 0;
+  transition: all 0.5s;
+  cursor: pointer;
+  animation: slide 01s forwards 0.3s;
+  margin: 1vh;
+}
+
+.button3 {
+  z-index: 3;
+  border: 0.01vh solid white;
+  border-radius: 0.5vh;
+  background-color: transparent;
+  position: relative; 
+ font: 2.5vh Pathway Gothic One;
+  padding: 1vh;
+  width: 15vh;
+  opacity: 0;
+  transition: all 0.5s;
+  cursor: pointer;
+  animation: slide 01s forwards 0.6s;
+  margin: 1vh;
+}
+
+.button1 p, .button2 p, .button3 p, .button4 p, .button5 p, .button6 p{
+    text-decoration: none;
+    color: white;
+}
+
+.button1 span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button1 span:after {
+  content: '\00bb';
+  transition: 0.5s;
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -3vh;
+  color: white;
+}
+
+.button1:hover {
+    background-color: #fda2aa;
+}
+
+.button1:hover span {
+  padding-right: 3vh;
+}
+
+.button1:hover a{
+  transition: 0.5s;
+}
+
+
+.button1:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+.button2 span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button2 span:after {
+  content: '\00bb';
+  transition: 0.5s;
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -3vh;
+  color: white;
+}
+
+.button2:hover {
+    background-color: #fbfb99;
+}
+
+.button2:hover span {
+  padding-right: 3vh;
+}
+
+.button2:hover a{
+  transition: 0.5s;
+}
+
+
+.button2:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+.button2 span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button2 span:after {
+  content: '\00bb';
+  transition: 0.5s;
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  color: white;
+}
+
+.button3 span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button3 span:after {
+  content: '\00bb';
+  transition: 0.5s;
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -3vh;
+  color: white;
+}
+
+.button3:hover {
+    background-color: #9bd2fd;
+}
+
+.button3:hover span {
+  padding-right: 3vh;
+}
+
+.button3:hover a{
+  transition: 0.5s;
+}
+
+
+.button3:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+.button3 span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button3 span:after {
+  content: '\00bb';
+  transition: 0.5s;
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  color: white;
+}
+
+.navigation2 {
+    width: 100%;
+    margin-top: 31vh;
+    text-align: center;
+}
+
+.button4 span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button4 span:after {
+  content: '\00bb';
+  transition: 0.5s;
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -3vh;
+  color: white;
+}
+
+.button4:hover {
+    background-color: #8af6a2;
+}
+
+.button4:hover span {
+  padding-right: 3vh;
+}
+
+.button4:hover a{
+  transition: 0.5s;
+}
+
+
+.button4:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+.button4 {
+  z-index: 3;
+  border: 0.01vh solid white;
+  border-radius: 0.5vh;
+  background-color: transparent;
+  position: relative; 
+font: 2.5vh Pathway Gothic One;
+  padding: 1vh;
+  width: 15vh;
+  opacity: 0;
+  transition: all 0.5s;
+  cursor: pointer;
+  animation: slide2 01s forwards 1.5s;
+  margin: 1vh;
+}
+
+.button6 span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button6 span:after {
+  content: '\00bb';
+  transition: 0.5s;
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -3vh;
+  color: white;
+}
+
+.button6:hover {
+    background-color: #cc70a3;
+}
+
+.button6:hover span {
+  padding-right: 3vh;
+}
+
+.button6:hover a{
+  transition: 0.5s;
+}
+
+
+.button6:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+.button6 {
+  z-index: 3;
+  border: 0.01vh solid white;
+  border-radius: 0.5vh;
+  background-color: transparent;
+  position: relative; 
+font: 2.5vh Pathway Gothic One;
+  padding: 1vh;
+  width: 15vh;
+  opacity: 0;
+  transition: all 0.5s;
+  cursor: pointer;
+  animation: slide2 01s forwards 1.2s;
+  margin: 1vh;
+}
+
+    
+.button5 span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button5 span:after {
+  content: '\00bb';
+  transition: 0.5s;
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -3vh;
+  color: white;
+}
+
+.button5:hover {
+    background-color: #fbd3a5;
+}
+
+.button5:hover span {
+  padding-right: 3vh;
+}
+
+.button5:hover a{
+  transition: 0.5s;
+}
+
+
+.button5:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+.button5 {
+  z-index: 3;
+  border: 0.01vh solid white;
+  border-radius: 0.5vh;
+  background-color: transparent;
+  position: relative; 
+  font: 2.5vh Pathway Gothic One;
+  padding: 1vh;
+  width: 15vh;
+  opacity: 0;
+  transition: all 0.5s;
+  cursor: pointer;
+  animation: slide2 01s forwards 0.9s;
+  margin: 1vh;
+}
+
+
+
+
+
+    
+@keyframes slide{
+    0% {
+        opacity: 0;
+        animation-timing-function: ease-out;
+    }
+    100% {
+        transform: translate3d(0px, 15vh, 0px);
+        opacity: 1;
+    }
+}
+
+@keyframes slide2{
+    0% {
+        opacity: 0;
+        animation-timing-function: ease-out;
+    }
+    100% {
+        transform: translate3d(0px, -15vh, 0px);
+        opacity: 1;
+    }
+}
+
+@keyframes fade-in{
+    0% {
+        opacity: 0;
+        animation-timing-function: ease-in-out;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+    
+}

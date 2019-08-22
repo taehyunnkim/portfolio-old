@@ -1,0 +1,260 @@
+*{
+	margin: 0px;
+	padding : 0px;
+}
+
+body{
+	width: 100%;
+	display: block;
+}
+
+h2{
+	font: 24px Raleway;
+	color: gray;
+}
+
+p{
+	font: 13px Source Sans Pro;
+	color: black;
+	margin-top: 10px;
+	
+}
+
+/* Navigation bar */
+header {
+    height: 8vh;
+    position: fixed;
+    width: 100%;
+    z-index: 3;
+    overflow: hidden;
+    background: white;
+    top: 0;
+    box-shadow: 1px 1px 10px #888888;
+}
+
+header #branding {
+    float: left;
+    margin: 0;
+    color: black;
+    font-size: 1.7vh;
+    margin-top: 2vh;  
+    font-family: Raleway;
+    width: 50%;
+}
+
+header .navigation {
+    display: block;
+    float: right;
+    margin-top: 3.5vh;  
+    animation-delay: 1.5s;
+    animation-duration: 1.5s;
+    margin-right: 10%;
+}
+
+header .navigation a {
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-family: Josefin Sans;
+}
+
+.soft-link {
+    -webkit-transition: color .3s linear;
+    transition: color .3s linear;
+}
+
+header .navigation ul {
+    margin: 0;
+    padding: 0;
+}
+
+header .navigation li {
+    display: inline;
+    margin-top: 3.5vh;
+    padding: 0 10px 0 10px;
+
+}
+
+header .navigation li:last-child {
+    margin-right: 0;
+}
+
+header .navigation a:hover {
+    color: #F48B94;
+
+}
+
+
+header .taehyun{
+    font-weight: bold;
+    margin-left: 20%;
+}
+
+header .kim {
+    font-weight: 100;
+}
+
+
+
+/* Start of Page */
+
+.bigHeader{
+	width: 500px;
+	margin-left: auto ;
+    margin-right: auto ;
+	border-bottom: dotted 1px gray;
+    margin-top: 10vh;
+    text-align: center;
+}
+
+.bigHeader h5{
+    margin-bottom: 10px;
+    font-family: Source Sans Pro;
+}
+
+.bigHeaderText{
+	text-align: center;
+	font: 10vh Raleway;
+	color: black;
+}
+
+#container {
+    text-align: center;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.heading {
+    text-align: center;
+	font: 5vh Raleway;
+	color: black;
+}
+
+/* HIGHSCHOOL PROJECTS*/
+
+#highschool {
+    width: 40%;
+    border: 1px dotted black;
+    display: inline-block;
+    margin-right: 2.5%;
+}
+
+.article{
+	padding: 20px;
+	margin-top: 30px;
+}
+
+.article h2{
+    text-align: center;
+	font: 30px;
+}
+
+.article p{
+    text-align: center;
+}
+
+/* COLORS */
+
+.pong  a {
+    text-decoration: none;
+    color: #EA7474;
+}
+
+.snowfall  a {
+    text-decoration: none;
+    color: #FFB361;
+}
+
+.snake a{
+    text-decoration: none;
+    color: #ffef78;
+}
+
+.dictionary a{
+    text-decoration: none;
+    color: #b0e891;
+}
+
+.app a{
+    text-decoration: none;
+    color: #bde8f4;
+}
+
+.website a{
+    text-decoration: none;
+    color: #4f8bc9;
+}
+
+.website2 a{
+    text-decoration: none;
+    color: #f1cbff;
+}
+
+
+/* POST-HIGHSCHOOL PROJECTS*/
+
+#uni {
+    width: 40%;
+    vertical-align: top;
+    border: 1px dotted black;
+    display: inline-block;
+    margin-left: 2.5%;
+}
+
+.article{
+	padding: 20px;
+	margin-top: 30px;
+}
+
+.article h2{
+    text-align: center;
+	font: 30px;
+}
+
+.article p{
+    text-align: center;
+}
+
+/* COLORS */
+
+.pong  a {
+    text-decoration: none;
+    color: #EA7474;
+}
+
+.snowfall  a {
+    text-decoration: none;
+    color: #FFB361;
+}
+
+.snake a{
+    text-decoration: none;
+    color: #ffef78;
+}
+
+.dictionary a{
+    text-decoration: none;
+    color: #b0e891;
+}
+
+.app a{
+    text-decoration: none;
+    color: #bde8f4;
+}
+
+.website a{
+    text-decoration: none;
+    color: #4f8bc9;
+}
+
+/* footer */
+
+.signature {
+    position: fixed; 
+    right: 0;
+    bottom: 0;
+    font-family: Source Sans Pro;
+    font-size: 10px;
+    text-transform: uppercase;
+}

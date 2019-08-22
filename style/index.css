@@ -30,7 +30,7 @@ body {
 
 .description p {
     margin: 0;
-    font-family: 'Nanum Myeongjo', serif;
+    font-family: "Poiret One";
     font-size: 0.5em;
 }
 
@@ -39,7 +39,7 @@ body {
 }
 
 .navbar a {
-    font-family: 'Nanum Myeongjo', serif !important;
+    font-family: "Poiret One" !important;
     font-size: 1em;
     padding-left: 0 !important;
     -webkit-transition: all 500ms ease-in;
@@ -55,6 +55,7 @@ body {
 }
 
 .social img{
+    margin-top: 7px;
     opacity: 0.5;
     transition: all 0.5s ease-in-out;
 }

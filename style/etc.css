@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display+SC:700|Poiret+One&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Nanum+Myeongjo:700&display=swap');
+
+body {
+    overflow: hidden;
+    background-color: white;
+}
+
+.abd {
+    text-align: center;
+}
+
+.abd-con{
+    width: 350px;
+    margin-top: 30vh;
+}
+
+.title {
+    color: black;
+    text-align: center;
+    font-family: "Poiret One";
+    font-size: 1.5em;
+}
+
+a {
+    text-decoration: none;
+    font-family: "Poiret One";
+    font-size: 1em;
+    color: black;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #4efcff;
+}
+
+.quit a:hover{
+    color: #FF405F;
+}
+
