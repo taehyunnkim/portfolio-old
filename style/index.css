@@ -54,11 +54,11 @@ body {
     padding-left: 0 !important;
 /*    color: #b76e79!important;*/
     opacity: 0.7;
-    -webkit-transition: all 500ms ease-in;
-    -moz-transition: all 500ms ease-in;
-    -ms-transition: all 500ms ease-in;
-    -o-transition: all 500ms ease-in;
-    transition: all 500ms ease-in;
+    -webkit-transition: all 250ms ease-in;
+    -moz-transition: all 250ms ease-in;
+    -ms-transition: all 250ms ease-in;
+    -o-transition: all 250ms ease-in;
+    transition: all 250ms ease-in;
 }
 
 .active {
@@ -106,7 +106,7 @@ body {
 }
 */
 
-@media only screen and (min-width: 800px) and (max-width: 1200px) {
+@media only screen and (min-width: 800px) and (max-width: 1250px) {
     .container {
         width: 50vw;
     }
