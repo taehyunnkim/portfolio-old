@@ -18,3 +18,7 @@ $(".connect").on("click", function(event) {
         }
     })
 });
+
+particlesJS.load('particles-js', 'JS/config2.json', function() {
+  console.log('callback - particles.js config loaded');
+});
