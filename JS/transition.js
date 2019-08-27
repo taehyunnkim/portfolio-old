@@ -9,10 +9,10 @@ $(".connect").on("click", function(event) {
     $.ajax({
         url: href, 
         success: function(data) {
-            $("body").fadeOut(500, function() {
+            $("body").fadeOut(350, function() {
                 console.log(data);
                 $("body").html(data);
-                $("body").fadeIn(500);
+                $("body").fadeIn(350);
             });
             
         }

@@ -10,7 +10,7 @@ var receivedData;
 
 function setup() {
     createCanvas(500, 1000);
-
+    
     input = select("#word");
     
 }
@@ -32,13 +32,13 @@ function keyPressed(){
 }
 
 function askDefinition(){
-    var url = url1 + input.value() + url2+ apikey;
+    var url = url1 + input.value().toLowerCase() + url2+ apikey;
     loadJSON(url, Data);
 }
 
 
 function update(){
-     push();
+        push();
         textAlign(CENTER);
         textSize(30);
         text(receivedData[1].word, width/2, 50);
@@ -72,25 +72,17 @@ function displayError (){
         textSize(30);
         text("The word is not in the dictionary.", 0, 80 , width, height);
         pop();
-    
-        push();
-        textAlign(CENTER);
-        textSize(11);
-        text("Make sure all the letters in the word are lowercase", 0, 120, width, height)
-        pop();
-    
 }
+
 
 function draw() {
     background(255);
 
     if(receivedData){
         if (receivedData === null || receivedData=== undefined || receivedData=== '' || receivedData.length === 0) {
-       displayError();
-    } else{
+            displayError();
+        } else{
         update();
+        }
     }
-}
-    
-
 }
