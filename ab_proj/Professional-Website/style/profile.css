@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css?family=Cormorant+Medium|IBM+Plex+Sans|Playfair+Display+SC&display=swap');
+
+body {
+    background-color: #232741;
+    height: 100vh;
+    overflow-x: hidden;
+}
+
+.headshot {
+    margin-top: 10rem;
+    margin-bottom: 1rem;
+    height:7rem;
+}
+
+h3 {
+    color: white;
+    font-family: IBM+Plex+Sans;
+}

@@ -1,0 +1,82 @@
+﻿<!DOCTYPE html>
+<html>
+    <head lang = "en">
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        
+        <!-- Bootstrap 4 -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        
+        <!-- Other Components-->
+        <script type="text/javascript" src="JS/particles.js" ></script>
+        <script type="text/javascript" src="JS/landing.js"></script>
+        <link rel = "stylesheet" type = "text/css" href="style/index.css">
+        
+        <title> TAEHYUN KIM </title>
+    </head>
+    
+    <body>
+        <div class="container">
+            <div class = "page row align-items-end justify-content-center">
+                <div class="top d-flex flex-column justify-content-end">
+                    <div><span class = "firstname">TAEHYUN</span><span>KIM</span></div>
+                    <div><span id = "text" class = "skills-f">Software Engineer</span></div>
+                    <div class = "navbar navbar-expand-lg navbar-light">
+                        <ul class="navbar-nav mr-auto mx-auto">
+                          <li class="nav-item">
+                            <a class="nav-link connect" onmouseover = "mouseoverProfile()" onmouseout = "mouseoutProfile()" href="profile.html"> PROFILE </a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href = "#"> PROJECTS </a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link connect" onmouseover = "mouseoverProject()" onmouseout = "mouseoutProject()" href="etc.html"> ETC </a>
+                          </li>
+                        </ul>
+                    </div>
+                </div>
+                <div id = "particles-js" class="bottom row align-items-end justify-content-center">
+                    <img class = "leaf" src = "imgs/leaves.png">
+                    <img class = "bees" src = "imgs/beees.png">
+                    <img id = "comp" src="imgs/computer_edit.png">
+                    <img id = "astro" src="imgs/astro_edit.png">
+                </div>
+            </div>
+        </div>
+        
+        <footer>
+            <p> Photo Cred: David Schermann </p>
+            <p> 2019 creation @ University of Washington</p>
+        </footer>
+        
+        <script>
+            // Swap Text
+            var text = ["Full Stack Developer", "UI/UX Designer", "Software Engineer"];
+            var counter = 0;
+            setInterval(change, 5000);
+
+            function change() {
+                var elem = document.getElementById("text");
+                elem.classList.add('hide');
+                setTimeout(function() {
+                    elem.innerHTML = text[counter];
+                    elem.classList.remove('hide');
+                    counter++;
+                    if(counter >= text.length) {
+                        counter = 0;
+                    }
+                }, 500);
+            }
+        </script>
+        
+        
+        
+        <!-- Bootstrap 4 -->
+        <script type="text/javascript" src="JS/jquery-3.4.1.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+        
+        <script type="text/javascript" src="JS/transition.js"></script>
+        
+    </body>
+</html>

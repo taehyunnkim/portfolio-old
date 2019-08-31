@@ -8,6 +8,7 @@
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
         
         <!-- Other Components-->
+        <script type="text/javascript" src="JS/jquery-3.4.1.min.js"></script>
         <link rel = "stylesheet" type = "text/css" href="style/etc.css">
         <script src="JS/particles.js"></script>
         
@@ -15,6 +16,19 @@
     </head>
     
     <body>
+        <script>
+            jQuery('body').css('display','none');
+            jQuery(document).ready(function() {
+                jQuery('body').fadeIn();
+                jQuery('.connect').on('click', function(event) {
+                    var chref = this.getAttribute('href');
+                    event.preventDefault();
+                    jQuery('body').fadeOut(function() {
+                        window.location = chref;
+                    });
+                });
+            });
+        </script>
         <div id="particles-js" style = "position: fixed; z-index: -1; height: 100vh; width: 100vw;"></div>
         <div class = "container abd-con">
             <div class = "row justify-content-center">
@@ -22,7 +36,7 @@
             </div>
 
             <div class = "row abd">
-                <div class = "col"> <a href="Professional-Website/index.html" target="_blank"> portfolio_v4 </a> </div>
+                <div class = "col"> <a href="ab_proj/Professional-Website/index.html" target="_blank"> portfolio_v5 </a> </div>
                 <div class = "col"> <a href="https://xd.adobe.com/view/fa6aff83-225e-4254-64bb-c412d8f38f0e-8c5b/" target="_blank"> ux_capture </a> </div>
                 <div class = "col"> <a href="https://xd.adobe.com/view/26dd95c9-4662-49e7-5866-8e0f4b9ec5da-50ec/" target="_blank"> ux_wake </a> </div>
             </div>
@@ -36,13 +50,19 @@
             <div class = "row abd">
                 <div class = "col"> <a href="https://www.openprocessing.org/sketch/409524" target="_blank"> pr_snowfall </a> </div>
                 <div class = "col"> <a href="ab_proj/Code/pong/pong.html" target="_blank"> gm_pong </a> </div>
-                <div class = "col"> <a href="http://taehyunkim.co.nf/#home" target="_blank"> portfolio_v3 </a> </div>
+                <div class = "col"> <a href="ab_proj/Personal-Website/index.html" target="_blank"> portfolio_v4 </a> </div>
             </div>
             
             <div class = "row abd">
+                <div class = "col"> <a href="http://taehyunkim.co.nf/#home" target="_blank"> portfolio_v3 </a> </div>
                 <div class = "col"> <a href="ab_proj/SchoolWebsite/index.html" target="_blank"> hs_website </a> </div>
                 <div class = "col"> <a href="https://erickim.000webhostapp.com/" target="_blank"> portfolio_v2 </a> </div>
-                <div class = "col"> <a href="http://erickim.co.nf/" target="_blank"> portfolio_v1 </a> </div>
+            </div>
+            
+            <div class = "row abd">
+                <div class = "col"> <a href="ab_proj/erickim.co.nf/Index.html" target="_blank"> portfolio_v1 </a> </div>
+                <div class = "col"> <a href="ab_proj/erickim.co.nf/Index.html" target="_blank"> </a> </div>
+                <div class = "col"> <a href="ab_proj/erickim.co.nf/Index.html" target="_blank"> </a> </div>
             </div>
 
             <div class = "row justify-content-center">
@@ -52,7 +72,6 @@
 
         
         <!-- Bootstrap 4 -->
-        <script type="text/javascript" src="JS/jquery-3.4.1.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
         

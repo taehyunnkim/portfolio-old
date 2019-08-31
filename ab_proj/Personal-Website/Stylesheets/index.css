@@ -1,0 +1,248 @@
+html{
+    padding: 0;
+    margin: 0;
+    background-image:none;
+}
+
+body {
+    height: 100vh;
+    overflow: hidden;
+    overflow-x: hidden;
+    background-color: white;
+    
+}
+
+
+
+#masterContainer {
+    display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */
+    display: -moz-box;         /* OLD - Firefox 19- (buggy but mostly works) */
+    display: -ms-flexbox;      /* TWEENER - IE 10 */
+    display: -webkit-flex;     /* NEW - Chrome */
+    display: flex; 
+    
+    height: 70%;
+    width: 100%;
+    
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/*.logo {
+    display: fixed;
+    height: 5%;
+    margin: 1% auto;
+    opacity: 0.7;
+}
+*/
+
+#background {
+    position: absolute;
+    z-index: -1;
+    height: 50%;
+    width: 50%;
+    opacity: 0;
+    transition: opacity 3s ease-in-out;
+    -moz-transition: opacity 3s ease-in-out;
+   -webkit-transition: opacity 3s ease-in-out;
+}
+
+#introduction, #introductionEnd {
+    font-family: IBM Plex Sans;
+    font-size: 4vh;
+    margin: 2vh 1vh;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+
+.header img {
+    height: 1.5vh;
+    opacity: 0.6;
+    transform: rotate(270deg);
+    cursor: pointer;
+    padding-right: 1vh;
+}
+
+#coming {
+    font-family: IBM Plex Sans;
+    font-size: 1.5vh;
+    margin: 1;
+}
+
+.fade {
+   opacity: 0.5;
+   transition: opacity .25s ease-in-out;
+   -moz-transition: opacity .25s ease-in-out;
+   -webkit-transition: opacity .25s ease-in-out;
+    
+    font-family: Raleway;
+    font-size: 2vh;
+    margin: 1;
+}
+
+.fade:hover {
+    opacity: 1;
+}
+
+.fade a {
+    text-decoration: none;
+    color: black;
+}
+
+#contentContainer {
+  display: flex; 
+  text-align: center;
+  overflow: hidden;
+  height = 12vh;
+  -moz-transition: all .3s ease-in-out;
+  -webkit-transition: all .3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+#dropdown {
+  transform: rotate(270deg);
+  padding-top: 0vh;
+  padding-right: 1vh;
+}
+
+#contentContainer img {
+    width: 6vh;
+    height: 6vh;
+    margin: 1vh 1vh;
+}
+
+#contentContainer p {
+    margin: 0;
+    font-family: Lato;
+    font-size: 1.5vh;
+    margin: 0;
+}
+
+.content {
+    height: 0vh;
+    margin: 0vh 3vh;
+    cursor: pointer;
+}
+
+.content:hover {
+    -webkit-box-shadow: 0 10px 6px -6px #777;
+    -moz-box-shadow: 0 10px 6px -6px #777;
+    box-shadow: 0 10px 6px -6px #777;
+}
+
+#introductionEnd {
+    margin: 0;
+}
+
+#navbar {
+    display: flex;
+    justify-content: center;
+}
+
+#navbar p {
+    margin: 2vh 2vh;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: black;
+  font-size: 1vh;
+  text-align: center;
+  font-family: Lato;
+}
+
+#gameList, 
+#appList, 
+#webList {
+    position: absolute;
+    top:25vh;
+    left: 20vw;
+    height: 21vh;
+    opacity: 0;
+    display: flex;
+    flex-flow: column;
+    overflow-y: scroll;
+    transition: all .25s ease-in-out;
+    -moz-transition: all .25s ease-in-out;
+    -webkit-transition: all .25s ease-in-out;
+}
+
+#gameList a, #appList a, #webList a {
+    text-decoration: none;
+    opacity: 0.4;
+    margin-top: 10px;
+    color: black;
+    font-family: Raleway;
+    transition: opacity .25s ease-in-out;
+    -moz-transition: opacity .25s ease-in-out;
+    -webkit-transition: opacity .25s ease-in-out;
+    
+}
+
+#gameList a:hover, #appList a:hover, #webList a:hover {
+    opacity: 1;
+}
+
+@media (max-device-width: 500px) {
+     #background {
+        position: absolute;
+        z-index: -1;
+        height: 45%;
+        width: 90%;
+        opacity: 0;
+        transition: all 3s ease-in-out;
+      }
+    
+    #introduction, #introductionEnd {
+        font-family: IBM Plex Sans;
+        font-size: 2vh;
+        margin: 1vh 1vh;
+    }
+  
+    #contentContainer {
+      display: flex; 
+      height = 0vh;
+      text-align: center;
+      overflow: hidden;
+      transition: all 0.3s ease-in-out;
+    }
+
+    #contentContainer img {
+        width: 3vh;
+        height: 3vh;
+        margin: 1vh 1vh;
+    }
+
+    #contentContainer p {
+        margin: 0;
+        font-family: Lato;
+        font-size: 1vh;
+        margin: 0;
+    }
+    
+    .content {
+        height: 7vh;
+        margin: 0vh 2vh;
+    }
+    
+    #navbar p {
+        font-size: 1vh;
+        margin: 0 2vh;
+    }
+    
+    #dropdown {
+      transform: rotate(270deg);
+      padding-top: 0vh;
+      padding-right: 0.25vh;
+      height: 1vh;
+    }
+}

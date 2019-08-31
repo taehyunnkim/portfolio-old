@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+  <head>
+     <meta name="viewport" content="width=device-width, initial-scale=1">
+     <!-- <link rel="icon" href="./images/Logo%20one.png"> -->
+     <title>eric kim</title>
+     <link rel="stylesheet" href="./Stylesheets/index.css?v=2.5"/>
+     <script type="text/javascript" src="./Javascripts/OnLoad.js"></script>
+     <script type="text/javascript" src="./Javascripts/Buttons.js"></script>
+     <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans:100 | Raleway" rel="stylesheet">      
+     <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet"> 
+     <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet"> 
+     <!-- Global site tag (gtag.js) - Google Analytics -->
+     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-134355577-1"></script>
+     <script>
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+
+          gtag('config', 'UA-134355577-1');
+     </script>
+
+  </head>
+  
+  <body>
+      <!-- <img src="images/Logo%20one.png" class = "logo"> -->
+      
+      <div id = "masterContainer">
+        <img src="images/background2.png" id = "background">
+        <div class = "header">
+            <img id = "dropdown" src="images/dropdown_closed.png" onClick = "toggleDropDown(); closeAll();">
+            <h1 id = "introduction"> eric kim { ... } </h1>
+        </div>
+        <div id = "contentContainer"> 
+            <div class = "fade content"> <a id="appButton" onclick="displayApps();">
+                <img src="images/phoneIcon1.png">
+                <p> Apps </p>
+            </a> </div>
+            <div class = "fade content" id="gameButton" onclick="displayGames();"> <a>
+                <img src="images/gameIcon.png">
+                <p> Games </p>
+            </a> </div>
+            <div class = "fade content"> <a id="webButton" onclick="displayWeb();">
+                <img src="images/webIcon2.png">
+                <p> Web </p>
+            </a> </div>
+        </div>
+
+        <h1 id = "introductionEnd"></h1>
+
+        <div id = "navbar">
+            <p class="fade"><a href = "./development.html"> about </a></p>
+            <p class="fade"><a href = "./development.html"> resume </a></p>
+            <p class="fade"><a href = "mailto: kim2000@uw.edu"> contact </a></p>
+        </div>
+      </div>
+      
+      <div id = "appList">
+        <a class="" href="" style="font-size: 31px;" hidden="true">Calculator</a>
+        <a class="" href="" style="font-size: 31px;" 
+        hidden="true">Alarm Clock</a>
+        <a class="" href="" style="font-size: 31px;" 
+        hidden="true">App #3</a>
+        <a class="" href="" style="font-size: 31px;" 
+        hidden="true">App #4</a>
+        <a class="" href="" style="font-size: 31px;" 
+        hidden="true">App #5</a>
+        <a class="" href="" style="font-size: 31px;" 
+        hidden="true">App #6</a>
+      </div>
+      
+      <div id = "gameList">
+        <a class="" href="" style="font-size: 31px;" 
+        hidden="true">Pong</a>
+        <a class="" href="" style="font-size: 31px;" 
+        hidden="true">Meteor Shower</a>
+        <a class="" href="" style="font-size: 31px;" hidden="true">Glider</a>
+        <a class="" href="" style="font-size: 31px;" 
+        hidden="true">The Falling</a>
+      </div>
+      
+      <div id = "webList">
+        <a class="" href="" style="font-size: 31px;" hidden="true">Dictionary</a>
+        <a class="" href="" style="font-size: 31px;" hidden="true">Snowfall</a>
+        <a class="" href="" style="font-size: 31px;" 
+        hidden="true">Project #3</a>
+        <a class="" href="" style="font-size: 31px;" 
+        hidden="true">Project #4</a>
+      </div>
+      
+      <div class="footer">
+        <p>@ 2019 Creation</p>
+        <p>*Under Development*</p>
+      </div>
+      
+  </body>
+</html>

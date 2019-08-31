@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css?family=Cutive+Mono&display=swap');
+
+body {
+    overflow: hidden;
+    background-color: white;
+}
+
+.container {
+    width: 45vw;
+}
+
+.header {
+    background-image: url("../images/projectportfolio.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 45vh;
+    padding-bottom: 10px;
+    border-bottom: 0.5px dashed lightgray;
+}
+
+p {
+    font-family: 'Cutive Mono', monospace;
+    margin: 0;
+    font-size: 0.8em;
+}
+
+.introHead {
+    font-size: 1em;
+    opacity: 0.5;
+}

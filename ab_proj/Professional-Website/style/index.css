@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css?family=Cormorant+Medium|IBM+Plex+Sans:100|Playfair+Display+SC&display=swap');
+
+body {
+    overflow: hidden;
+}
+
+.page {
+    height: 100vh;
+}
+
+div {
+    text-align: center;
+}
+
+span {
+    font-family: 'Playfair Display SC', serif;
+    font-size: 4em;
+    text-align: center;
+    color: black;
+    -webkit-transition: opacity 1000ms ease-in-out;
+    -moz-transition: opacity 500ms ease-in-out;
+    -ms-transition: opacity 500ms ease-in-out;
+    -o-transition: opacity 500ms ease-in-out;
+    transition: opacity 500ms ease-in-out;
+}
+
+.firstname {
+    color: #5F1212;
+}
+
+.skills-f {
+    font-family: 'Cormorant Medium', serif;
+    font-size: 1.3em;
+    opacity: 0.6;
+}
+
+.top {
+    width: 100%;
+    height: 20%;
+}
+
+.bottom {
+    background: url("../imgs/leaves_edit_2.png") no-repeat bottom;
+    background-size: contain;
+    height: 40%;
+    width: 100%;
+    position: relative;
+}
+
+.leaf {
+    position: absolute;
+    width: 27%;
+    left: 25%;
+    z-index: 3;
+    -webkit-filter: drop-shadow(1px 3px 3px #222);
+    filter: drop-shadow(1px 3px 3px #222);
+}
+
+.bees {
+    position: absolute;
+    width: 10%;
+    left: 23%;
+    bottom: 65%;
+    z-index: 3;
+    -webkit-filter: drop-shadow(1px 1px 1px #999);
+    filter: drop-shadow(1px 1px 1px #999);
+}
+
+#comp {
+    position: absolute;
+    width: 17%;
+    z-index: 2;
+    left: 40%;
+    -webkit-filter: drop-shadow(1px 3px 3px #222);
+    filter: drop-shadow(1px 3px 3px #222);
+    -webkit-transition: all 300ms ease-in-out;
+    -moz-transition: all 300ms ease-in-out;
+    -ms-transition: all 300ms ease-in-out;
+    -o-transition: all 300ms ease-in-out;
+    transition: all 300ms ease-in-out;
+}
+
+#astro {
+    position: absolute;
+    width: 20%;
+    right: 23%;
+    z-index: 1;
+    -webkit-filter: drop-shadow(1px 3px 3px #222);
+    filter: drop-shadow(1px 3px 3px #222);
+    -webkit-transition: all 300ms ease-in-out;
+    -moz-transition: all 300ms ease-in-out;
+    -ms-transition: all 300ms ease-in-out;
+    -o-transition: all 300ms ease-in-out;
+    transition: all 300ms ease-in-out;
+}
+
+.navbar a {
+    font-family: 'IBM Plex Sans', sans-serif !important;
+    font-size: 1.2em;
+    -webkit-transition: all 500ms ease-in;
+    -moz-transition: all 500ms ease-in;
+    -ms-transition: all 500ms ease-in;
+    -o-transition: all 500ms ease-in;
+    transition: all 500ms ease-in;
+}
+
+.navbar a:hover {
+    color: #5F1212 !important;
+    opacity: 1;
+}
+
+.hide {
+    opacity: 0 !important;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    margin: 10px 0px;
+}
+
+footer p {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 10px;
+    margin: 0 10px;
+    text-align: right;
+}
