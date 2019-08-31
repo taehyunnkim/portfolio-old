@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css?family=Playfair+Display+SC:700|Poiret+One&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Nanum+Myeongjo:700&display=swap');
 
 body {
     overflow: hidden;
@@ -52,7 +51,7 @@ img:hover {
 
 .navbar a {
     font-family: "Poiret One" !important;
-    font-size: 1em;
+    font-size: 0.9em;
     padding-left: 0 !important;
     -webkit-transition: all 250ms ease-in;
     -moz-transition: all 250ms ease-in;

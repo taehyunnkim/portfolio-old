@@ -1,7 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Cutive+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display+SC:700|Poiret+One&display=swap');
 
 body {
-    overflow: hidden;
+    overflow-x: hidden;
     background-color: white;
 }
 
@@ -28,4 +29,30 @@ p {
 .introHead {
     font-size: 1em;
     opacity: 0.5;
+}
+
+.navbar a {
+    font-family: "Poiret One" !important;
+    padding-left: 0 !important;
+    -webkit-transition: all 250ms ease-in;
+    -moz-transition: all 250ms ease-in;
+    -ms-transition: all 250ms ease-in;
+    -o-transition: all 250ms ease-in;
+    transition: all 250ms ease-in;
+}
+
+@media only screen and (max-width: 1200px) {
+    .header {
+        background-image: url("../images/projectportfolio.png");
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+        height: 35vh;
+        padding-bottom: 10px;
+        border-bottom: 0.5px dashed lightgray;
+    }
+    
+    .container {
+        width: 90vw;
+    }   
 }
