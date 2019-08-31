@@ -1,0 +1,143 @@
+*{
+	margin: 0px;
+	padding : 0px;
+}
+
+h3{
+	font: 24px Impact;
+	color: gray;
+}
+
+p{
+	font: 13px Times;
+	color: black;
+	margin-top: 10px;
+	
+}
+
+
+
+.bigHeader{
+	width: 500px;
+	margin-left: auto ;
+    margin-right: auto ;
+	border-bottom: dotted 1px gray;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.bigHeader h5{
+    
+    margin-bottom: 10px;
+    font-family: Lato;
+}
+
+.bigHeaderText{
+	text-align: center;
+	font: 100px Amatic SC;
+	color: black;
+}
+
+body{
+	width: 100%;
+	display: block;
+}
+
+.wrapper{
+	
+	width: 960px;
+	margin: 0px auto;
+	
+}
+
+
+#big_wrapper{
+	margin: 0px 0px;
+	/* Changed the overall setting for the entire website*/
+}
+
+#top_header{ 
+	padding: 10px;
+	text-align: center;
+	font: 38px Impact;
+	color: #1C1C1C;
+	/* Logo and Title*/
+}
+
+.articleWrapper{
+	margin-left: auto ;
+    margin-right: auto ;
+	display: block;
+	width: 700px;
+	height: 100%;
+    
+}
+
+#main_section{
+	margin: 0px;
+	padding: 0px;
+}
+
+.Article {
+    text-align: center;
+}
+
+/*Buttons*/
+.button {
+  border-radius: 5px;
+  border: none;
+  background-color: white;
+  color: black;
+  margin-left: calc(50% - 200px);
+  text-align: center;
+  font-size: 20px;
+  font-family: Work Sans;  
+  padding: 15px;
+  width: 400px;
+  transition: all 0.5s;
+  cursor: pointer;
+  animation: slide 01s forwards;
+  z-index: 2;
+}
+
+.button a{
+    text-decoration: none;
+    color: black;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+@keyframes slide{
+    0% {
+        transform: translate3d(0px, 0px, 0px);
+        opacity: 0;
+        animation-timing-function: ease-in-out;
+    }
+    100% {
+        transform: translate3d(0px, 10px, 0px);
+        opacity: 1;
+    }
+}
