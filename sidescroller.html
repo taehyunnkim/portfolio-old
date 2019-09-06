@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+    <head lang = "en">
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        
+        <!-- Bootstrap 4 -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        
+        <!-- Other Components-->
+        <script type="text/javascript" src="JS/jquery-3.4.1.min.js"></script>
+        <link rel = "stylesheet" type = "text/css" href="style/sidescroller.css">
+        <script src="JS/particles.js"></script>
+        <link rel="shortcut icon" type="image/png" href="images/fav.png"/>
+        
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-134355577-1"></script>
+        <script>
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+
+          gtag('config', 'UA-134355577-1');
+        </script>
+        
+        
+        <title> TAEHYUN KIM </title>
+    </head>
+    
+    <body>
+        <script>
+            jQuery('body').css('display','none');
+            jQuery(document).ready(function() {
+                jQuery('body').fadeIn();
+                jQuery('.connect').on('click', function(event) {
+                    var chref = this.getAttribute('href');
+                    event.preventDefault();
+                    jQuery('body').fadeOut(function() {
+                        window.location = chref;
+                    });
+                });
+            });
+        </script>
+
+        <div id="particles-js" style = "position: fixed; z-index: -1; height: 100vh; width: 100vw;"></div>
+        <div class = "container">
+            <div class = "row justify-content-center">
+                <div class = "header col-12"></div>
+                <div class = "col-4 mt-4">
+                    <p class = "introHead"> Role </p>
+                    <p> UI Designer </p>
+                    <p> Developer </p>
+                </div>
+                <div class = "col-4 mt-4">
+                    <p class = "introHead"> Skills </p>
+                    <p> C# </p>
+                    <p> Unity Engine </p>
+                    <p> Adobe Photoshop </p>
+                </div>
+                <div class = "col-4 mt-4">
+                    <p class = "introHead"> Date </p>
+                    <p> Sep. 2019</p>
+                </div>
+                <div class = "col-12 mt-4"> 
+                    <p class = "introHead"> First Development </p>
+                    <p> 
+                        As an avid gamer, creating a game was one of the things that I have always wanted to be able to 
+                        do growing up. For that, I started learning C# and Unity engine to kickstart my journey as a 
+                        PC/Mobile game developer. Learning C# was relatively simple: they both were object-oriented,
+                        and many of sytax in C# was very similar to that of Java.I wanted to make my first game as simple as possible; and for 
+                        that, I was able to better acclimate myself to the new Unity environment.
+                        <br><br>
+                        
+                        This project really opened my eyes to the sheer volume of work that is put into game development. From programming to 
+                        graphics design to animating, my respect for indie developers rose to a new level. Developing this first game 
+                        was an incredibly joyful process, and I hope to bring many of my game ideas that rest in my notebook to fruition.           
+                    </p>
+                </div>
+                <div class = "col-12 mt-4"> 
+                    <p class = "introHead"> Implementations </p>
+                </div>
+                <div class = "col-4">
+                    <img src="images/movement.gif" style="width: 100%; margin-top: 10px;">
+                    <p style="text-align: center;"> Player Movements </p>
+                </div>
+                <div class = "col-4">
+                    <img src="images/enemy_movement.gif" style="width: 100%; margin-top: 10px;">
+                    <p style="text-align: center;"> Enemy Movements </p>
+                </div>
+                <div class = "col-4">
+                    <img src="images/fighting.gif" style="width: 100%; margin-top: 10px;">
+                    <p style="text-align: center;"> Enemy Death </p>
+                </div>
+                <div class = "col-4">
+                </div>
+                <div class = "col-4">
+                    <img src="images/player-detection.gif" style="width: 100%; margin-top: 5px;">
+                    <p style="text-align: center;"> Player Detection </p>
+                </div>
+                <div class = "col-4">
+                </div>
+                <div class = "col-12 mt-4"> 
+                    <p class = "introHead"> Assets </p>
+                    <p> I downloaded sprite sheets for free from the Unity Asset Store and itch.io. I edited some of the animations
+                        using Adobe Photoshop to get rid of unncessary/unwanted movements from the original sprite. 
+                    </p>
+                    
+                    <div class = "navbar navbar-expand navbar-light">
+                        <ul class="navbar-nav mx-auto px-0 my-2">
+                          <li class="nav-item">
+                            <a class="nav-link py-0 connect" href = "https://github.com/taehyunnkim/game2_2D_Sidescroller" target="_blank"> github </a>
+                          </li>
+                        </ul>
+                        <ul class="navbar-nav mx-auto px-0 my-2">
+                          <li class="nav-item">
+                            <a class="nav-link py-0 connect" href = "projects.html"> back </a>
+                          </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        
+        <!-- Bootstrap 4 -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+        <script src="JS/app.js"></script>
+        
+    </body>
+</html>

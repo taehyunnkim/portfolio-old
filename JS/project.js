@@ -9,7 +9,7 @@ function secondIn() {
     projectName.style.opacity = "1";
 }
 function thirdIn() {
-    projectName.innerHTML = "poli";
+    projectName.innerHTML = "iuvenis";
     projectName.style.opacity = "1";
 }
 
