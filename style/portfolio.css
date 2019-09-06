@@ -54,5 +54,11 @@ p {
     
     .container {
         width: 90vw;
-    }   
+    }
+    
+    p {
+        font-family: 'Cutive Mono', monospace;
+        margin: 0;
+        font-size: 0.6em;
+    }
 }

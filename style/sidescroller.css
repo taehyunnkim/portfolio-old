@@ -42,7 +42,7 @@ p {
 
 @media only screen and (max-width: 1200px) {
     .header {
-        background-image: url("../images/sidescroller.png");
+        background-image: url("../images/sidescroller-optimized.png");
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center;
@@ -53,4 +53,10 @@ p {
     .container {
         width: 90vw;
     }   
+    
+    p {
+        font-family: 'Cutive Mono', monospace;
+        margin: 0;
+        font-size: 0.6em;
+    }
 }
