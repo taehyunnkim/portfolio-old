@@ -12,6 +12,10 @@ function thirdIn() {
     projectName.innerHTML = "iuvenis";
     projectName.style.opacity = "1";
 }
+function fourthIn() {
+    projectName.innerHTML = "earth";
+    projectName.style.opacity = "1";
+}
 
 
 function out() {

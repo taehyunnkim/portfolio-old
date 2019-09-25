@@ -28,16 +28,17 @@ div {
 .display img {
     opacity: 0.7;
     height: 350px;
-    width: 95px;
+    width: 70px;
     box-shadow: 3px 3px 3px #444;
     margin: 0px 1px;
     transition: all 300ms ease-in-out;
+    object-fit: cover;
 }
 
 .description p {
     width: 70%;
     margin: 0;
-        font-family: "Poiret One";
+    font-family: "Poiret One";
 }
 
 img:hover {
@@ -88,13 +89,60 @@ img:hover {
         1px 1px 0 #DAA520;
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 1200px) {
+    .display img {
+        height: 250px;
+        width: 60px;
+        box-shadow: 3px 3px 3px #444;
+        margin: 0px 2px;
+        transition: all 300ms ease-in-out;
+        object-fit: cover;
+    }
+
+    .description p {
+        width: 60%;
+        margin: auto;
+    }
+    
+    .navbar {
+        width: 60%;
+        padding: 0 !important;
+        margin: auto;
+    }
+    
+    .projectName {
+        position: fixed;
+        top: 10vh;
+        left:3px;
+        text-align: center;
+        font-family: 'Playfair Display SC', serif;
+        font-weight: 700;
+        pointer-events: none;
+        z-index: 1;
+        margin: 0 auto;
+    }
+
+    .projectName h1 {
+        font-size: 3em;
+        opacity: 0;
+        color: white;
+        text-shadow:
+        1px 1px 0 #DAA520,
+        -1px -1px 0 #DAA520,  
+        1px -1px 0 #DAA520,
+        -1px 1px 0 #DAA520,
+        1px 1px 0 #DAA520;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
     .display img {
         height: 200px;
         width: 60px;
         box-shadow: 3px 3px 3px #444;
         margin: 0px 2px;
         transition: all 300ms ease-in-out;
+        object-fit: cover;
     }
 
     .description p {
