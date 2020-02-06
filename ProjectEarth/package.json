@@ -1,0 +1,23 @@
+{
+  "name": "project-earth",
+  "version": "1.0.0",
+  "description": "Interactive Earth App",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "http-server . -p 8000"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/taehyunnkim/Project-Earth.git"
+  },
+  "author": "Eric Kim",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/taehyunnkim/Project-Earth/issues"
+  },
+  "homepage": "https://github.com/taehyunnkim/Project-Earth#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
