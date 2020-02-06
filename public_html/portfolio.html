@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+    <head lang = "en">
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        
+        <!-- Bootstrap 4 -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        
+        <!-- Other Components-->
+        <script type="text/javascript" src="JS/jquery-3.4.1.min.js"></script>
+        <link rel = "stylesheet" type = "text/css" href="style/portfolio.css">
+        <script src="JS/particles.js"></script>
+        <link rel="shortcut icon" type="image/png" href="images/fav.png"/>
+        
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-134355577-1"></script>
+        <script>
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+
+          gtag('config', 'UA-134355577-1');
+        </script>
+        
+        
+        <title> TAEHYUN KIM </title>
+    </head>
+    
+    <body>
+        <script>
+            jQuery('body').css('display','none');
+            jQuery(document).ready(function() {
+                jQuery('body').fadeIn();
+                jQuery('.connect').on('click', function(event) {
+                    var chref = this.getAttribute('href');
+                    event.preventDefault();
+                    jQuery('body').fadeOut(function() {
+                        window.location = chref;
+                    });
+                });
+            });
+        </script>
+
+        <div id="particles-js" style = "position: fixed; z-index: -1; height: 100vh; width: 100vw;"></div>
+        <div class = "container">
+            <div class = "row justify-content-center">
+                <div class = "header col-12"></div>
+                <div class = "col-4 mt-4">
+                    <p class = "introHead"> Role </p>
+                    <p> UI Designer </p>
+                    <p> Developer </p>
+                </div>
+                <div class = "col-4 mt-4">
+                    <p class = "introHead"> Skills </p>
+                    <p> HTML/CSS </p>
+                    <p> Javascript </p>
+                    <p> Jquery </p>
+                    <p> Adobe XD </p>
+                    <p> Adobe Illustrator </p>
+                    <p> Adobe Photoshop </p>
+                </div>
+                <div class = "col-4 mt-4">
+                    <p class = "introHead"> Date </p>
+                    <p> August. 2019</p>
+                </div>
+                <div class = "col-12 mt-4"> 
+                    <p class = "introHead"> Artistic Direction </p>
+                    <p> One of the biggest challenges I have had over the years of developing websites was creating my professional
+                        portfolio. As a creative designer, I find myself chasing for perfection and, at the end, frustration. 
+                        I keep striving for more, for something even better; and once I complete a design, I just feel it is
+                        not good enough.
+                        <br> 
+                        <br> 
+                        Exploration after exploration, I have decided to take the proverb "less is more". I focused on minimal
+                        interactions accompanied with simple animations, displaying relevant information, and monochromatic minimalism. 
+                        Though sometimes frustrating, creating portfolios has been one of my favourite leisure activities. These projects 
+                        provide a glimpse of my historical past, and demonstrate my development in artistic direction.
+                    </p>
+                </div>
+                <div class = "col-12 mt-4"> 
+                    <p class = "introHead"> Fonts </p>
+                    <img src="images/playfair.png" style="width: 100%; margin-top: 10px;">
+                    <img src="images/poiret.png" style="width: 100%; margin-top: 20px;">
+                </div>
+                <div class = "col-12 mt-4"> 
+                    <p class = "introHead"> Logo </p>
+                    <img src="images/LOGO.jpg" style="width: 100%; margin-top: 10px;">
+                    <p style="margin-top: 10px;"> This is a working prototype for my personal brand logo. I tried to merge together the initials
+                        of my name. </p>
+                    
+                    <div class = "navbar navbar-expand navbar-light">
+                        <ul class="navbar-nav mx-auto my-2">
+                          <li class="nav-item">
+                            <a class="nav-link py-0 connect" href = "projects.html"> back </a>
+                          </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        
+        <!-- Bootstrap 4 -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+        <script src="JS/app.js"></script>
+        
+    </body>
+</html>

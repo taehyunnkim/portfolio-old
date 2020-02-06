@@ -1,0 +1,379 @@
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section { 
+    display:block;
+}
+
+#my{
+zoom: 100%;
+}
+
+.zoom {
+    zoom: 1;
+    -moz-transform: scale(1);
+    -moz-transform-origin: 0 0;
+}
+
+html {zoom: 100%;} 
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+.wrapper {
+    height: 100%;
+    width: 100%;
+
+}
+
+.background-image{
+    height: 100%;
+    width: 100%;
+    left: 0;
+    position: fixed;
+    z-index: 1;
+
+    animation: image_blur 2s forwards;
+    border: 5px solid black;
+    transform: scale(1.05, 1.05);
+     overflow: hidden;
+    
+    
+}
+
+.background {
+    overflow: hidden;
+    
+}
+
+@keyframes image_blur {
+    0% { filter: blur(0px);}
+    100% { filter: blur(3px);
+    -webkit-filter: blur(3px);
+        -moz-filter: blur(3px);
+        -o-filter: blur(3px);
+        -ms-filter: blur(3px);}
+}
+
+
+/* Text */
+
+.rw-wrapper{
+    position: absolute;
+    display: inline;
+    top: 17vh;
+    z-index:2;
+    width: 100%;
+    text-align: center;
+	}
+	
+.rw-sentence{
+    font: BOLD 8vh Abel;
+    color: white;
+	}
+	
+.rw-sentence span{
+    margin-top: 1vh;
+    left: 0;
+    font:  5vh Pathway Gothic One;
+	color: white;
+	}
+	
+.rw-words-1 span{
+	position: absolute;
+	opacity: 0;
+    width: 100%;
+	
+	-webkit-animation: rotateWord 8s linear infinite 0s;
+	animation: rotateWord 8s linear infinite 0s;
+    
+	}
+
+.rw-words-1 span:nth-child(2) { 
+    -webkit-animation-delay: 4s; 
+    animation-delay: 4s; 
+	}
+
+@-webkit-keyframes rotateWord {
+    0% { opacity: 0; }
+    2% { opacity: 1; }
+    25% { opacity: 1; } 
+	48% { opacity: 1; }
+    50% { opacity: 0; }
+	}
+@keyframes rotateWord {
+    0% { opacity: 0; }
+    2% { opacity: 1; }
+    25% { opacity: 1; } 
+	48% { opacity: 1; }
+    50% { opacity: 0; }
+	}
+
+
+
+
+
+.footer2 {
+    z-index: 3;
+}
+
+
+.chrome {
+    position: fixed;
+    z-index: 3;
+    font-size: 1.6vh;
+    color: white;
+    top: 95%;
+    right: 0;
+    margin-right: 3vh;
+}
+
+.img1 {
+    width: 2vh;
+    position: fixed;
+    z-index: 4;
+    font-size: 1.5vh;
+    top: 95%;
+    right: 27.5vh;
+}
+
+.img2 {
+    width: 2vh;
+    position: fixed;
+    z-index: 4;
+    top: 95%;
+    right: 30vh;
+}
+
+@media screen and (max-device-width: 800px) {
+    .wrapper {
+    height: 100%;
+    width: 100%;
+
+}
+
+.background-image{
+    height: 100%;
+    width: 100%;
+    left: 0;
+    position: fixed;
+    z-index: 1;
+
+    animation: image_blur 2s forwards;
+    border: 5px solid black;
+    transform: scale(1.05, 1.05);
+     overflow: hidden;
+    
+    
+}
+
+.background {
+    overflow: hidden;
+    
+}
+
+@keyframes image_blur {
+    0% { filter: blur(0px);}
+    100% { filter: blur(3px);
+    -webkit-filter: blur(3px);
+        -moz-filter: blur(3px);
+        -o-filter: blur(3px);
+        -ms-filter: blur(3px);}
+}
+
+
+/* Text */
+
+.rw-wrapper{
+    position: absolute;
+    display: inline;
+    top: 17vh;
+    z-index:2;
+    width: 100%;
+    text-align: center;
+	}
+	
+.rw-sentence{
+    font: BOLD 5vh Abel;
+    color: white;
+	}
+	
+.rw-sentence span{
+    margin-top: 1vh;
+    left: 0;
+    font:  3vh Pathway Gothic One;
+	color: white;
+	}
+	
+.rw-words-1 span{
+	position: absolute;
+	opacity: 0;
+    width: 100%;
+	
+	-webkit-animation: rotateWord 8s linear infinite 0s;
+	animation: rotateWord 8s linear infinite 0s;
+    
+	}
+
+.rw-words-1 span:nth-child(2) { 
+    -webkit-animation-delay: 4s; 
+    animation-delay: 4s; 
+	}
+
+@-webkit-keyframes rotateWord {
+    0% { opacity: 0; }
+    2% { opacity: 1; }
+    25% { opacity: 1; } 
+	48% { opacity: 1; }
+    50% { opacity: 0; }
+	}
+@keyframes rotateWord {
+    0% { opacity: 0; }
+    2% { opacity: 1; }
+    25% { opacity: 1; } 
+	48% { opacity: 1; }
+    50% { opacity: 0; }
+	}
+
+
+
+
+.footer p{
+    z-index: 3;
+    font-size: 1.5vh;
+    color: white;
+    top: 95%;
+    text-align: center;
+    left: 0;
+}
+
+
+.footer2 p{
+    opacity: 0;
+}
+
+.img1 {
+    opacity: 0;
+}
+
+.img2 {
+    opacity: 0;
+}
+}
+
+label{
+    display:block;
+    padding-top: 3.5vh;
+    font-family:'helvetica neue', helvetica, arial, sans-serif;
+    background:#888;
+    border: 0.05vh solid transparent;
+    border-left: none;
+    border-radius: 0 2vh 2vh 0;
+    width:3vh;
+    height: 7vh;
+    color:#fff;
+    text-align:center;
+    font-size:3vh;
+    position:fixed;
+    top:15vh;
+    left:0;
+    -moz-transition:all 200ms ease-out;
+    -webkit-transition:all 200ms ease-out;
+    -o-transition:all 200ms ease-out;
+    transition:all 200ms ease-out;
+    z-index:500;
+    cursor: pointer;
+}
+input[type="checkbox"]{
+    display:none;
+}
+input[type="checkbox"]:checked ~ nav{
+    margin:0;
+}
+input[type="checkbox"]:checked ~ label{
+    left:57vh;
+}
+input[type="checkbox"]:checked ~ section{
+    -webkit-transform:translate3d(0, 57vh, 0);
+    -moz-transform:translate3d(0, 57vh, 0);
+    -o-transform:translate3d(0,57vh, 0);
+    transform:translate3d(0, 57vh, 0);
+}
+
+nav{
+    position:fixed;
+    top:0;
+    left:0;
+    z-index: 4;
+    width: 57vh;
+    height:100%;
+    margin:0 0 0 -57vh;
+    -moz-transition:all 200ms ease-out;
+    -webkit-transition:all 200ms ease-out;
+    -o-transition:all 200ms ease-out;
+    transition:all 200ms ease-out;
+}
+nav ul{
+    width:57vh;
+    height:100%;
+    padding:0;
+    margin:0;
+    list-style:none;
+    background:#888;
+    overflow:hidden;
+    text-align: center;
+   
+}
+.club {
+    position: relative;
+    top: 5vh;
+    text-align: center;
+    width: 80%;
+}
+
+nav h1 {
+    margin-top: 10vh;
+    font: 5vh Abel;
+    color: white;
+}
+
+nav p {
+    margin-top: 2vh;
+    font: 1.5vh Quicksand;
+    color: white;
+}
+
+.credit {
+    margin-top: 35vh;
+    font: 1.5vh Quicksand;
+    color: white;
+}

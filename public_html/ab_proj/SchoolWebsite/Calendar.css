@@ -1,0 +1,154 @@
+*{
+	margin: 0px;
+	padding : 0px;
+}
+
+h3{
+	font: 24px Impact;
+	color: gray;
+}
+
+p{
+	font: 13px Times;
+	color: black;
+	margin-top: 10px;
+	
+}
+
+
+
+.bigHeader{
+	width: 500px;
+	margin-left: auto ;
+    margin-right: auto ;
+	border-bottom: dotted 1px gray;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.bigHeader h5{
+    
+    margin-bottom: 10px;
+    font-family: Lato;
+}
+
+.bigHeaderText{
+	text-align: center;
+	font: 100px Amatic SC;
+	color: black;
+}
+
+body{
+	width: 100%;
+	display: block;
+}
+
+.wrapper{
+	
+	width: 960px;
+	margin: 0px auto;
+	
+}
+
+
+#big_wrapper{
+	margin: 0px 0px;
+	/* Changed the overall setting for the entire website*/
+}
+
+#top_header{ 
+	padding: 10px;
+	text-align: center;
+	font: 38px Impact;
+	color: #1C1C1C;
+	/* Logo and Title*/
+}
+
+.articleWrapper{
+	margin-left: auto ;
+    margin-right: auto ;
+	display: block;
+	width: 100%;
+	height: 100%;
+    
+}
+
+#main_section{
+	margin: 0px;
+	padding: 0px;
+}
+
+.pong , .dictionary, .reminder{
+	padding: 20px;
+	margin-top: 30px;
+    text-align: center;
+}
+
+.pong h2, .dictionary h2, .reminder h2{
+    text-align: center;
+	font: 30px;
+}
+
+.pong  a {
+    text-decoration: none;
+    color: #EA7474;
+}
+
+.dictionary a{
+    text-decoration: none;
+    color: #FFB361;
+}
+
+.reminder a{
+    text-decoration: none;
+    color: #ffef78;
+}
+
+.pong p, .dictionary p, .reminder p{
+    text-align: center;
+}
+
+
+.navigation {
+    z-index: 3;
+    position: static;
+    margin: 50px 100px;
+    
+}
+
+.navigation ul {
+    list-style-type: none;
+    margin: 0px 0px;
+    overflow: hidden;
+    background-color: white;
+    text-align: center;
+    padding-left: 0px;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+}
+
+
+.navigation li {
+	display: inline;
+    
+}
+
+.navigation li a {
+    display: inline-block;
+    color: black;
+    font: 20px Advent Pro; 
+    text-align: center;
+    width: 100px;
+    padding: 15px 15px;
+    margin: 0px 20px;
+    text-decoration: none;
+    transition-property: all;
+    transition-duration: 200ms;
+    transition-timing-function: linear;
+    
+}
+
+.navigation li a:hover {
+    background-color: #ccc;
+    
+}
